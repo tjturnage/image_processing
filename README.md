@@ -1,2 +1,2 @@
 # image_processing
-Using ImageMagick to batch crop and create montages
+Using <a href="https://imagemagick.org/index.php">ImageMagick</a> to batch crop and create montages
