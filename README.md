@@ -1,17 +1,18 @@
 # image_processing
 Using <a href="https://imagemagick.org/index.php" target="_blank">ImageMagick</a> to batch crop and create montages
 
-"""
+
 Requires: web browser screen shots of 4 panel dispays accessible at:
 <a href="https://veritas.nws.noaa.gov/blend/conus.php" target="_blank">https://veritas.nws.noaa.gov/blend/conus.php</a>
 
 
 This script crops the 4 panes, and creates mosaics for each forecast hour containing the different forecast 
 sources as well as verification with data arranged in the panels as follows:
-   top  left : NDFD
-   top right : NBMv32
- bottom left : observed dataset (URMA, NOHRSC, etc.)
- bottom left : NBMv31
+   
+     top  left : NDFD
+     top right : NBMv32
+   bottom left : observed dataset (URMA, NOHRSC, etc.)
+   bottom left : NBMv31
 
 NBM viewer settings
                    Type : Event Review
@@ -33,4 +34,4 @@ The filenames of these screen-captured images need to follow this example:
        20191113 : verifying date
             12Z : verifying hour
             F72 : hours in future from forecast time
-"""
+
