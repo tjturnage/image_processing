@@ -8,7 +8,7 @@ with data in the following configuration
    top  left : NDFD
    top right : NBMv32
  bottom left : verifiying dataset (URMA, NOHRSC, etc.)
- bottom left : NBMv31
+bottom right : NBMv31
 
 NBM viewer settings
                    Type : Event Review
@@ -143,7 +143,7 @@ for src_file in glob.glob('*PNG'):
         fcst_hour_list.append(fcst_hour)
 
         # here is where each image gets split into four panels, which requires the ordering in the
-        # images eictionary
+        # images dictionary
         for key in image:
             data_source = key
             crop_string = image[key]['crop']                
